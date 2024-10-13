@@ -1,0 +1,133 @@
+/*Barra de Navegacion*/
+ 
+.navbar{
+  padding: 5px;
+  background-color: #D8BFD8;
+     
+   
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+ 
+/*Datos generales*/
+section{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}
+h3 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
+}
+p{
+  font-family: 'Rubik Dirt', cursive;
+}
+.seccion-oscura {
+  color: white;
+  background-color: #D8BFD8 ;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+.seccion-texto {
+    font-size: 1.2rem;
+}
+.texto-negro {
+    color: black;
+}
+.texto-blanco {
+    color: white;
+}
+.contenido{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.carousel-img{
+  width: 400px;
+  height: 300px;
+}
+/*Segunda pagina Biografia 
+
+Seccion hero*/
+.hero{
+ 
+  padding: 40px;
+  text-align: center;
+ 
+}
+.hero-principal{
+  height: 100vh;
+  padding: 3px;
+}
+.hero-imagen{
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+}
+.about-me{
+  padding: 5px;
+  text-align: center;
+  
+}
+/*Tercera Pagina Materias*/
+.materias {
+  padding: 40px 40px 60px 40px;
+  
+ 
+}
+.seccion-clara {
+  color: black;
+  height: 100vh;
+  
+}
+  
+.materias .columna{
+    padding: 20px;
+    border: 4px solid #D8BFD8;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+  }
+  .materias .columna:hover {
+   
+    background-color:  #D8BFD8;
+  }
+  .experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  /*Cuarta Pagina Pasatiempos*/
+  .pasatiempos {
+    
+    padding: 40px;
+    text-align: center;
+   
+  }
+  .pasatiempos img {
+    height: 200px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+  /*Footer*/
+  /* Pie de pagina (footer) */
+
+ 
